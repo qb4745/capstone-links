@@ -1,0 +1,136 @@
+PE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto IOC - Enlaces de Demostración</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            color: #0d1117;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.2rem;
+            color: #586069;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            width: 100%;
+            max-width: 900px;
+        }
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 1.5rem;
+        }
+        .card h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 0.75rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 1rem;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+        a {
+            display: block;
+            padding: 0.9rem 1rem;
+            background-color: #f6f8fa;
+            color: #0366d6;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: background-color 0.2s ease, box-shadow 0.2s ease;
+            border: 1px solid #d1d5da;
+            text-align: center;
+        }
+        a:hover {
+            background-color: #e1e4e8;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #586069;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Proyecto IOC</h1>
+        <p>Enlaces de Demostración y Recursos</p>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <h2>Entornos de la Aplicación</h2>
+            <ul>
+                <li><a href="https://ioc-frontend-git-feature-ioc-001-integr-b16d6d-qb4745s-projects.vercel.app/" target="_blank" rel="noopener
+noreferrer">Frontend (Vercel)</a></li>
+                <li><a href="https://ioc-backend.onrender.com" target="_blank" rel="noopener noreferrer">Backend (Render)</a></li>
+                <li><a href="https://treated-paste-eos-memo.trycloudflare.com/" target="_blank" rel="noopener noreferrer">Metabase (HTTPS - 
+Cloudflare)</a></li>
+                <li><a href="http://54.232.229.228:3000/" target="_blank" rel="noopener noreferrer">Metabase (HTTP - IP Directa)</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Endpoints de Monitoreo</h2>
+            <ul>
+                <li><a href="https://ioc-backend.onrender.com/actuator/health" target="_blank" rel="noopener noreferrer">Health Check General</
+a></li>
+                <li><a href="https://ioc-backend.onrender.com/actuator/health/etl" target="_blank" rel="noopener noreferrer">Health Check 
+Específico del ETL</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Recursos Adicionales</h2>
+            <ul>
+                <li><a href="https://docs.google.com/presentation/d/182pU4qfSpSYkUAAJ5hjJ2NGmslGYTvvuWNWHtpJd-EM/edit" target="_blank" rel=
+"noopener noreferrer">Presentación del Proyecto (Slides)</a></li>
+                <li><a href="https://drive.google.com/drive/u/0/folders/1sf3j3vEZ2Xk54gJj30ir6jfG7kHvHfl8" target="_blank" rel="noopener 
+noreferrer">Carpeta de Evidencias (Drive)</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Proyecto Inteligencia Operacional Cambiaso - 2025</p>
+    </div>
+
+</body>
+</html>
